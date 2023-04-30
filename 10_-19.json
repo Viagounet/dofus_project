@@ -1,0 +1,291 @@
+{
+  "points": {
+    "floor1": [
+      632,
+      216
+    ],
+    "ladder_LT": [
+      502,
+      297
+    ],
+    "ladder_LB": [
+      505,
+      451
+    ],
+    "floor0": [
+      466,
+      520
+    ],
+    "380_218": [
+      380,
+      219
+    ],
+    "721_598": [
+      721,
+      598
+    ],
+    "1063_434": [
+      1063,
+      434
+    ],
+    "380_219": [
+      380,
+      219
+    ],
+    "to_9_-19_BL": [
+      116,
+      678
+    ],
+    "to_cave": [
+      1312,
+      383
+    ],
+    "ladder_RB": [
+      1060,
+      340
+    ],
+    "ladder_RT": [
+      1053,
+      139
+    ],
+    "floor2": [
+      979,
+      52
+    ],
+    "to_10_-18": [
+      866,
+      907
+    ],
+    "to_9_-19_BT": [
+      125,
+      206
+    ]
+  },
+  "links": [
+    {
+      "start_point": "floor1",
+      "end_point": "ladder_LT",
+      "coordinates": [
+        [
+          632,
+          216
+        ],
+        [
+          502,
+          297
+        ]
+      ],
+      "orientation": "start_to_end"
+    },
+    {
+      "start_point": "ladder_LT",
+      "end_point": "floor0",
+      "coordinates": [
+        [
+          502,
+          297
+        ],
+        [
+          466,
+          520
+        ]
+      ],
+      "orientation": "start_to_end"
+    },
+    {
+      "start_point": "ladder_LB",
+      "end_point": "floor0",
+      "coordinates": [
+        [
+          505,
+          451
+        ],
+        [
+          466,
+          520
+        ]
+      ],
+      "orientation": "end_to_start"
+    },
+    {
+      "start_point": "floor1",
+      "end_point": "ladder_LB",
+      "coordinates": [
+        [
+          632,
+          216
+        ],
+        [
+          505,
+          451
+        ]
+      ],
+      "orientation": "end_to_start"
+    },
+    {
+      "start_point": "floor0",
+      "end_point": "to_9_-19_BL",
+      "coordinates": [
+        [
+          466,
+          520
+        ],
+        [
+          116,
+          678
+        ]
+      ],
+      "orientation": "bidirectional"
+    },
+    {
+      "start_point": "1063_434",
+      "end_point": "ladder_RB",
+      "coordinates": [
+        [
+          1063,
+          434
+        ],
+        [
+          1060,
+          340
+        ]
+      ],
+      "orientation": "start_to_end"
+    },
+    {
+      "start_point": "ladder_RB",
+      "end_point": "floor2",
+      "coordinates": [
+        [
+          1060,
+          340
+        ],
+        [
+          979,
+          52
+        ]
+      ],
+      "orientation": "start_to_end"
+    },
+    {
+      "start_point": "ladder_RT",
+      "end_point": "floor2",
+      "coordinates": [
+        [
+          1053,
+          139
+        ],
+        [
+          979,
+          52
+        ]
+      ],
+      "orientation": "end_to_start"
+    },
+    {
+      "start_point": "1063_434",
+      "end_point": "ladder_RT",
+      "coordinates": [
+        [
+          1063,
+          434
+        ],
+        [
+          1053,
+          139
+        ]
+      ],
+      "orientation": "end_to_start"
+    },
+    {
+      "start_point": "floor0",
+      "end_point": "721_598",
+      "coordinates": [
+        [
+          466,
+          520
+        ],
+        [
+          721,
+          598
+        ]
+      ],
+      "orientation": "bidirectional"
+    },
+    {
+      "start_point": "721_598",
+      "end_point": "1063_434",
+      "coordinates": [
+        [
+          721,
+          598
+        ],
+        [
+          1063,
+          434
+        ]
+      ],
+      "orientation": "bidirectional"
+    },
+    {
+      "start_point": "to_cave",
+      "end_point": "1063_434",
+      "coordinates": [
+        [
+          1312,
+          383
+        ],
+        [
+          1063,
+          434
+        ]
+      ],
+      "orientation": "bidirectional"
+    },
+    {
+      "start_point": "floor1",
+      "end_point": "380_219",
+      "coordinates": [
+        [
+          632,
+          216
+        ],
+        [
+          380,
+          219
+        ]
+      ],
+      "orientation": "bidirectional"
+    },
+    {
+      "start_point": "380_219",
+      "end_point": "to_9_-19_BT",
+      "coordinates": [
+        [
+          380,
+          219
+        ],
+        [
+          125,
+          206
+        ]
+      ],
+      "orientation": "bidirectional"
+    },
+    {
+      "start_point": "floor0",
+      "end_point": "to_10_-18",
+      "coordinates": [
+        [
+          466,
+          520
+        ],
+        [
+          866,
+          907
+        ]
+      ],
+      "orientation": "bidirectional"
+    }
+  ]
+}
